@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58073AD7221315A2E951CD4A /* Pods_CKCC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72200B95EC169C1A5531DB76 /* Pods_CKCC.framework */; };
+		A200BC5A1EC0A79E00D82DDC /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200BC591EC0A79E00D82DDC /* EditProfileTableViewController.swift */; };
+		A214C0101F0A69C4004A7379 /* ArticleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214C00F1F0A69C4004A7379 /* ArticleViewCell.xib */; };
+		A219160C1EB0B73300B338C3 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219160B1EB0B73300B338C3 /* NewsTableViewController.swift */; };
+		A219160E1EB0BA2E00B338C3 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219160D1EB0BA2E00B338C3 /* ArticleTableViewCell.swift */; };
+		A21A04701ED3093C00407414 /* CkccDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A21A046E1ED3093C00407414 /* CkccDataModel.xcdatamodeld */; };
+		A21A04731ED30AC000407414 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A04711ED30AC000407414 /* Article+CoreDataClass.swift */; };
+		A21A04741ED30AC000407414 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A04721ED30AC000407414 /* Article+CoreDataProperties.swift */; };
+		A248C93F1ED59E4100E2637F /* LoginHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248C93D1ED59E4100E2637F /* LoginHistory+CoreDataClass.swift */; };
+		A248C9401ED59E4100E2637F /* LoginHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248C93E1ED59E4100E2637F /* LoginHistory+CoreDataProperties.swift */; };
+		A248C9421ED5A08C00E2637F /* LoginHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248C9411ED5A08C00E2637F /* LoginHistoryTableViewController.swift */; };
+		A248C9451ED5A98100E2637F /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248C9431ED5A98100E2637F /* User+CoreDataClass.swift */; };
+		A248C9461ED5A98100E2637F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248C9441ED5A98100E2637F /* User+CoreDataProperties.swift */; };
+		A2C7790D1E854510007E50EB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7790C1E854510007E50EB /* ProfileViewController.swift */; };
+		A2CADC5C1E76B395009AA449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC5B1E76B395009AA449 /* AppDelegate.swift */; };
+		A2CADC5E1E76B395009AA449 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC5D1E76B395009AA449 /* LoginViewController.swift */; };
+		A2CADC611E76B395009AA449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CADC5F1E76B395009AA449 /* Main.storyboard */; };
+		A2CADC631E76B395009AA449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CADC621E76B395009AA449 /* Assets.xcassets */; };
+		A2CADC661E76B395009AA449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CADC641E76B395009AA449 /* LaunchScreen.storyboard */; };
+		A2DD42E31F03DA890021DABF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD42E21F03DA890021DABF /* AboutViewController.swift */; };
+		A2E6D7481EF15BF600241E49 /* MyArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E6D7471EF15BF600241E49 /* MyArticle.swift */; };
+		A2ECD1161E893F6400441D45 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ECD1151E893F6400441D45 /* ContactViewController.swift */; };
+		A2EF92871EF7E8F700E03A27 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF92861EF7E8F700E03A27 /* ArticleViewController.swift */; };
+		A2EF92891EF803EE00E03A27 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF92881EF803EE00E03A27 /* MapViewController.swift */; };
+		A2F0D4111EAE2C7D004DE159 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0D4101EAE2C7D004DE159 /* StudentViewController.swift */; };
+		A2FACADD1EE8178500375B9A /* CkccDataModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A2FACADC1EE8178500375B9A /* CkccDataModel.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06C888207137FB0296176DDF /* Pods-CKCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKCC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKCC/Pods-CKCC.debug.xcconfig"; sourceTree = "<group>"; };
+		37EBF230A42AA6626C0940EA /* Pods-CKCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKCC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKCC/Pods-CKCC.release.xcconfig"; sourceTree = "<group>"; };
+		72200B95EC169C1A5531DB76 /* Pods_CKCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A200BC591EC0A79E00D82DDC /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		A214C00F1F0A69C4004A7379 /* ArticleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleViewCell.xib; sourceTree = "<group>"; };
+		A219160B1EB0B73300B338C3 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		A219160D1EB0BA2E00B338C3 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		A21A046F1ED3093C00407414 /* CkccDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CkccDataModel.xcdatamodel; sourceTree = "<group>"; };
+		A21A04711ED30AC000407414 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A21A04721ED30AC000407414 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A248C93D1ED59E4100E2637F /* LoginHistory+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginHistory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A248C93E1ED59E4100E2637F /* LoginHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginHistory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A248C9411ED5A08C00E2637F /* LoginHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHistoryTableViewController.swift; sourceTree = "<group>"; };
+		A248C9431ED5A98100E2637F /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A248C9441ED5A98100E2637F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A2C7790C1E854510007E50EB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A2CADC581E76B395009AA449 /* CKCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CADC5B1E76B395009AA449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2CADC5D1E76B395009AA449 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A2CADC601E76B395009AA449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2CADC621E76B395009AA449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2CADC651E76B395009AA449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2CADC671E76B395009AA449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DD42E21F03DA890021DABF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A2E6D7471EF15BF600241E49 /* MyArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyArticle.swift; sourceTree = "<group>"; };
+		A2ECD1151E893F6400441D45 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		A2EF92861EF7E8F700E03A27 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		A2EF92881EF803EE00E03A27 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A2F0D4101EAE2C7D004DE159 /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		A2FACADC1EE8178500375B9A /* CkccDataModel.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CkccDataModel.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CADC551E76B395009AA449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58073AD7221315A2E951CD4A /* Pods_CKCC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B48BC9B3A239C27546AE90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06C888207137FB0296176DDF /* Pods-CKCC.debug.xcconfig */,
+				37EBF230A42AA6626C0940EA /* Pods-CKCC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21A046D1ED308FD00407414 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2FACADC1EE8178500375B9A /* CkccDataModel.sqlite */,
+				A248C9431ED5A98100E2637F /* User+CoreDataClass.swift */,
+				A248C9441ED5A98100E2637F /* User+CoreDataProperties.swift */,
+				A248C93D1ED59E4100E2637F /* LoginHistory+CoreDataClass.swift */,
+				A248C93E1ED59E4100E2637F /* LoginHistory+CoreDataProperties.swift */,
+				A21A04711ED30AC000407414 /* Article+CoreDataClass.swift */,
+				A21A04721ED30AC000407414 /* Article+CoreDataProperties.swift */,
+				A21A046E1ED3093C00407414 /* CkccDataModel.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2CADC4F1E76B395009AA449 = {
+			isa = PBXGroup;
+			children = (
+				A2CADC5A1E76B395009AA449 /* CKCC */,
+				A2CADC591E76B395009AA449 /* Products */,
+				17B48BC9B3A239C27546AE90 /* Pods */,
+				B499CD00A177B696405B44BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CADC591E76B395009AA449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CADC581E76B395009AA449 /* CKCC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CADC5A1E76B395009AA449 /* CKCC */ = {
+			isa = PBXGroup;
+			children = (
+				A2E6D7461EF15BCC00241E49 /* Server Model */,
+				A21A046D1ED308FD00407414 /* Model */,
+				A2F0D40F1EAE2B1D004DE159 /* Other */,
+				A2F0D40E1EAE2AE4004DE159 /* Controller */,
+				A2F0D40D1EAE2AD0004DE159 /* UI */,
+			);
+			path = CKCC;
+			sourceTree = "<group>";
+		};
+		A2E6D7461EF15BCC00241E49 /* Server Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2E6D7471EF15BF600241E49 /* MyArticle.swift */,
+			);
+			name = "Server Model";
+			sourceTree = "<group>";
+		};
+		A2F0D40D1EAE2AD0004DE159 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A2CADC5F1E76B395009AA449 /* Main.storyboard */,
+				A2CADC621E76B395009AA449 /* Assets.xcassets */,
+				A2CADC641E76B395009AA449 /* LaunchScreen.storyboard */,
+				A219160D1EB0BA2E00B338C3 /* ArticleTableViewCell.swift */,
+				A214C00F1F0A69C4004A7379 /* ArticleViewCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A2F0D40E1EAE2AE4004DE159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2CADC5D1E76B395009AA449 /* LoginViewController.swift */,
+				A2C7790C1E854510007E50EB /* ProfileViewController.swift */,
+				A2ECD1151E893F6400441D45 /* ContactViewController.swift */,
+				A2F0D4101EAE2C7D004DE159 /* StudentViewController.swift */,
+				A219160B1EB0B73300B338C3 /* NewsTableViewController.swift */,
+				A200BC591EC0A79E00D82DDC /* EditProfileTableViewController.swift */,
+				A248C9411ED5A08C00E2637F /* LoginHistoryTableViewController.swift */,
+				A2EF92861EF7E8F700E03A27 /* ArticleViewController.swift */,
+				A2EF92881EF803EE00E03A27 /* MapViewController.swift */,
+				A2DD42E21F03DA890021DABF /* AboutViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A2F0D40F1EAE2B1D004DE159 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A2CADC5B1E76B395009AA449 /* AppDelegate.swift */,
+				A2CADC671E76B395009AA449 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		B499CD00A177B696405B44BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72200B95EC169C1A5531DB76 /* Pods_CKCC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CADC571E76B395009AA449 /* CKCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CADC6A1E76B395009AA449 /* Build configuration list for PBXNativeTarget "CKCC" */;
+			buildPhases = (
+				E7E9903B8F5EC3A6AF0803FF /* [CP] Check Pods Manifest.lock */,
+				A2CADC541E76B395009AA449 /* Sources */,
+				A2CADC551E76B395009AA449 /* Frameworks */,
+				A2CADC561E76B395009AA449 /* Resources */,
+				6CFFE14013E3A1DE0D86374D /* [CP] Embed Pods Frameworks */,
+				A0A151B1DEE113E2BEC32253 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKCC;
+			productName = CKCC;
+			productReference = A2CADC581E76B395009AA449 /* CKCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CADC501E76B395009AA449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CKCC;
+				TargetAttributes = {
+					A2CADC571E76B395009AA449 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DXX95Y7K36;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2CADC531E76B395009AA449 /* Build configuration list for PBXProject "CKCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CADC4F1E76B395009AA449;
+			productRefGroup = A2CADC591E76B395009AA449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CADC571E76B395009AA449 /* CKCC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CADC561E76B395009AA449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CADC661E76B395009AA449 /* LaunchScreen.storyboard in Resources */,
+				A2CADC631E76B395009AA449 /* Assets.xcassets in Resources */,
+				A2CADC611E76B395009AA449 /* Main.storyboard in Resources */,
+				A214C0101F0A69C4004A7379 /* ArticleViewCell.xib in Resources */,
+				A2FACADD1EE8178500375B9A /* CkccDataModel.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CFFE14013E3A1DE0D86374D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKCC/Pods-CKCC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0A151B1DEE113E2BEC32253 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKCC/Pods-CKCC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E9903B8F5EC3A6AF0803FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CADC541E76B395009AA449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A248C93F1ED59E4100E2637F /* LoginHistory+CoreDataClass.swift in Sources */,
+				A219160E1EB0BA2E00B338C3 /* ArticleTableViewCell.swift in Sources */,
+				A2C7790D1E854510007E50EB /* ProfileViewController.swift in Sources */,
+				A200BC5A1EC0A79E00D82DDC /* EditProfileTableViewController.swift in Sources */,
+				A248C9401ED59E4100E2637F /* LoginHistory+CoreDataProperties.swift in Sources */,
+				A2CADC5E1E76B395009AA449 /* LoginViewController.swift in Sources */,
+				A248C9451ED5A98100E2637F /* User+CoreDataClass.swift in Sources */,
+				A2EF92891EF803EE00E03A27 /* MapViewController.swift in Sources */,
+				A21A04701ED3093C00407414 /* CkccDataModel.xcdatamodeld in Sources */,
+				A219160C1EB0B73300B338C3 /* NewsTableViewController.swift in Sources */,
+				A248C9421ED5A08C00E2637F /* LoginHistoryTableViewController.swift in Sources */,
+				A21A04731ED30AC000407414 /* Article+CoreDataClass.swift in Sources */,
+				A21A04741ED30AC000407414 /* Article+CoreDataProperties.swift in Sources */,
+				A248C9461ED5A98100E2637F /* User+CoreDataProperties.swift in Sources */,
+				A2EF92871EF7E8F700E03A27 /* ArticleViewController.swift in Sources */,
+				A2E6D7481EF15BF600241E49 /* MyArticle.swift in Sources */,
+				A2F0D4111EAE2C7D004DE159 /* StudentViewController.swift in Sources */,
+				A2CADC5C1E76B395009AA449 /* AppDelegate.swift in Sources */,
+				A2DD42E31F03DA890021DABF /* AboutViewController.swift in Sources */,
+				A2ECD1161E893F6400441D45 /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2CADC5F1E76B395009AA449 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CADC601E76B395009AA449 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2CADC641E76B395009AA449 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CADC651E76B395009AA449 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2CADC681E76B395009AA449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CADC691E76B395009AA449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2CADC6B1E76B395009AA449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C888207137FB0296176DDF /* Pods-CKCC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DXX95Y7K36;
+				INFOPLIST_FILE = CKCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kh.edu.rupp.ckcc.CKCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2CADC6C1E76B395009AA449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EBF230A42AA6626C0940EA /* Pods-CKCC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DXX95Y7K36;
+				INFOPLIST_FILE = CKCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kh.edu.rupp.ckcc.CKCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CADC531E76B395009AA449 /* Build configuration list for PBXProject "CKCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CADC681E76B395009AA449 /* Debug */,
+				A2CADC691E76B395009AA449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CADC6A1E76B395009AA449 /* Build configuration list for PBXNativeTarget "CKCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CADC6B1E76B395009AA449 /* Debug */,
+				A2CADC6C1E76B395009AA449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A21A046E1ED3093C00407414 /* CkccDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A21A046F1ED3093C00407414 /* CkccDataModel.xcdatamodel */,
+			);
+			currentVersion = A21A046F1ED3093C00407414 /* CkccDataModel.xcdatamodel */;
+			path = CkccDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2CADC501E76B395009AA449 /* Project object */;
+}
